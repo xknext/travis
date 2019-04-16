@@ -35,7 +35,7 @@ install:
     - export PATH=$PWD/travis-phantomjs:$PATH
     - npm install jshint --save-dev
     - npm install
-    - npm test
 script:
 #    - node app.js
-    - ember test --server
+#    - ember test --server
+    - npm test
